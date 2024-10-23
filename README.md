@@ -2,7 +2,7 @@
 Arquivo
 
 
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#Contribuindo)
+# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1.-Contribuindo)
 # [1. Introdução](https://github.com)
 # [1. Introdução](https://github.com)
 # [1. Introdução](https://github.com)
