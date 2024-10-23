@@ -2,7 +2,7 @@
 Arquivo
 
 
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1.0-Como-executar)
+# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#Introdução)
 # [1. Introdução](https://github.com)
 # [1. Introdução](https://github.com)
 # [1. Introdução](https://github.com)
