@@ -1,7 +1,7 @@
 # [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
 # [2. Habilidaes adiquiridas ou requisitadas para o projeto](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#2-habilidaes-adiquiridas-ou-requisitadas-para-o-projeto)
 # [3. Como executar](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#3-como-executar)
-# [4. Contribuindo](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#4-contribuindo)
+# [4. Guia de uso com exemplos de execuçao e principais funcionalidades](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#4-contribuindo)
 # [5.Créditos e Licença](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#5cr%C3%A9ditos-e-licen%C3%A7a)
 
 
@@ -23,7 +23,7 @@ Coloca-se o arquivo executavel projeto na pasta do prompt de comando e utiliza-s
 "-i ou --Inserir: Inserir novo arquivo na base de dados." 
 "-r ou --Remover: Remover arquivo na base de dados."
 
-## ModoExibição da base de arquivo:" << endl << endl
+## ModoExibição da base de arquivo:
 "-e ou --List_Insercao: Listar todos os arquivos da base tendo como base a ordem de Insercao."
 "-a ou --List_Alfabetico: Listar todos os arquivos da base tendo como base a ordem alfabética."
 "-p ou --List_Quant_Palavras: Listar todos os arquivos da base tendo como base A ordem decrescente da quantidade de palavras do arquivo."
