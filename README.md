@@ -1,28 +1,56 @@
-# Pesquisador-de-palavras
+![image](https://github.com/user-attachments/assets/2fa4ac5f-4907-400c-932b-52254dd33ca6)# Pesquisador-de-palavras
 Arquivo
 
 
 # [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-# [1. Introdução](https://github.com)
-# [1. Introdução](https://github.com)
-# [1. Introdução](https://github.com)
-# [1. Introdução](https://github.com)
+# [2. Habilidaes adiquiridas ou requisitadas para o projeto](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#2-habilidaes-adiquiridas-ou-requisitadas-para-o-projeto)
+# [3. Como executar](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#3-como-executar)
+# [4. Contribuindo](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#4-contribuindo)
+# [5.Créditos e Licença](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#5cr%C3%A9ditos-e-licen%C3%A7a)
 
 
 # 1. Introdução
 Esse Projeto visa à criação de um pesquisador de palavras em arquivos. Foi criado na linguagem de programação C++ e realizado por um grupo de alunos da UFRN.
 
-
-
-
 # 2. Habilidaes adiquiridas ou requisitadas para o projeto
-Se tens posse de um projeto que visa a aprendizagem, o seu próprio estudo ou até base para estudos de outras pessoas, é interessante colocar quais habilidades são requeridas para estudar/rodar o seu código, ou habilidades que vão ser adiquiridas se seguirem os seus estudos.
+Conhecimento básico da linguagem de programação C++. Domínio na manipulação de arquivos de texto, bem como algoritmos de busca.
 
 # 3. Como executar
-Se tens um programa que faz alguma coisa, um jogo, um código em determinada linguagem, é interessante adicionar a informação de como executar seus códigos, quais programas precisa no computador do usuário, comando para executar os códigos, algumas informaçãoes de quais arquivos precisa ter, entre diversos outros.
+Foi gerado um executavel para manipulação dos arquivos. Compilador da linguagem de programação C++.
 
-# 4. Contribuindo
-Se teu projeto é OpenSource, é natural que outros progamadores irão querer melhorar seu projeto, adicionando novos recursos, corrigindo algum bug, implementando alguma tecnologia, entre diversos outros, para isso ele deverá fazer pulls requests em seu código, seria muito interessante implementar algumas informações de como contribuir com o projeto, como fazer um Fork, como fazer o pull request, e até algumas preferências pessoais suas de como queres o pull request
+# 4. Guia de uso com exemplos de execuçao e principais funcionalidades.
 
-# 5.Créditos e Licença
-É interessante também em alguns casos concluir com os créditos do repositório ou até mesmo da licença utilizada nele.
+Coloca-se o arquivo executavel projeto na pasta do prompt de comando e utiliza-se os comandos abaixo:
+
+
+## Modo de Gerenciamento de Busca:"
+"-h ou --ajuda: mostra essa tela e sai."
+"-i ou --Inserir: Inserir novo arquivo na base de dados." 
+"-r ou --Remover: Remover arquivo na base de dados."
+
+## ModoExibição da base de arquivo:" << endl << endl
+"-e ou --List_Insercao: Listar todos os arquivos da base tendo como base a ordem de Insercao."
+"-a ou --List_Alfabetico: Listar todos os arquivos da base tendo como base a ordem alfabética."
+"-p ou --List_Quant_Palavras: Listar todos os arquivos da base tendo como base A ordem decrescente da quantidade de palavras do arquivo."
+
+## Modo de Buscas:
+"Argumento de Busca:"
+"-d ou --bAND _And:A busca é feita por linhas dos arquivos texto que contém todas as palavras chave passadas como argumento de entrada."
+"-o ou --bOR : A busca é feita por linhas dos arquivos texto que contém ao menos uma das palavras chave passadas como argumento de entrada."
+
+## Exibição do resultado da busca:"
+"-b ou --Impress_Alfabetica: A impressão é feita exibindo os resultados em ordem alfabética do nome do arquivo."
+"-q ou --Impress_Quant_Palavras: A impressão é feita exibindo os resultados em ordem decrescente do número de vezes que as palavraschave ocorreram em cada arquivo." 
+"-c ou --Impress_Insercao: A impressão é feita exibindo os resultados na ordem em que cada arquivo foi inserido na base." 
+
+## Contabilização do tempo
+"-s ou --Temp_S: O programa deve registrar e exibir o tempo total de execução de da busca." << endl
+"-n ou --Temp_N: O programa não deve registrar nem exibir o tempo total de execução da busca." << endl;
+
+
+Segue alguns exemplos de aplicação do codigo
+
+Inserção de arquivos
+
+![Inserção arquivos](https://drive.google.com/file/d/1hMoX8OFAkhOP1IpVgHqCFfBqHhSs34I-/view?usp=drive_link)
+
