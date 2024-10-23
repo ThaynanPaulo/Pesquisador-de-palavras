@@ -1,7 +1,3 @@
-![image](https://github.com/user-attachments/assets/2fa4ac5f-4907-400c-932b-52254dd33ca6)# Pesquisador-de-palavras
-Arquivo
-
-
 # [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
 # [2. Habilidaes adiquiridas ou requisitadas para o projeto](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#2-habilidaes-adiquiridas-ou-requisitadas-para-o-projeto)
 # [3. Como executar](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#3-como-executar)
@@ -49,7 +45,19 @@ Coloca-se o arquivo executavel projeto na pasta do prompt de comando e utiliza-s
 
 Segue alguns exemplos de aplicação do codigo
 
-Inserção de arquivos
+## Inserção de arquivos
 
 ![Inserção arquivos](https://github.com/user-attachments/assets/5d43dc3b-9e75-4f50-b51a-196f83b5f063)
+
+## Remoção de arquivos
+
+![Remoção de arquivos](https://github.com/user-attachments/assets/6e8eec6c-b6c1-4639-afbb-2ce949371162)
+
+## Apresentação arquivos
+
+![Apresentação arquivos](https://github.com/user-attachments/assets/08ac9e67-6438-4729-a744-b4bddb400d20)
+
+## Busca de palavras nos arquivos
+
+![Busca de palavras nos arquivos](https://github.com/user-attachments/assets/8c26d6eb-82ff-4a69-b568-1669e3d4741d)
 
