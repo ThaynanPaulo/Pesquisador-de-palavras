@@ -1,22 +1,16 @@
 # [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
 # [2. Habilidaes adiquiridas ou requisitadas para o projeto](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#2-habilidaes-adiquiridas-ou-requisitadas-para-o-projeto)
-# [3. Como executar](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#3-como-executar)
-# [4. Principais funcionalidades](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#4-guia-de-uso-com-exemplos-de-execu%C3%A7ao-e-principais-funcionalidades-1)
-# [Guia de uso com exemplos de execuçao e principais funcionalidades](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-5)
-
-
-https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#modo-de-gerenciamento-de-busca
-
+# [3. Como executar](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#4-principais-funcionalidades-1)
+# [4.1 Modo de Gerenciamento de Busca](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#41-modo-de-gerenciamento-de-busca)
+# [4.2 Exibição da base de arquivo](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#42-modoexibi%C3%A7%C3%A3o-da-base-de-arquivo)
+# [4.3 Modo de Buscas](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#43-modo-de-buscas)
+# [4.4 Exibição do resultado da busca](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#44-exibi%C3%A7%C3%A3o-do-resultado-da-busca)
+# [4.5 Contabilização do tempo](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#45-contabiliza%C3%A7%C3%A3o-do-tempo)
+# [5. Exemplos de execução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#5-exemplos-de-execu%C3%A7ao)
+# [5.1 Inserção de arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#51-inser%C3%A7%C3%A3o-de-arquivos)
+# [5.2 Remoção de arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#52-remo%C3%A7%C3%A3o-de-arquivos)
+# [5.3 Apresentação arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#53-apresenta%C3%A7%C3%A3o-arquivos)
+# [5.4 Busca de palavras nos arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#54-busca-de-palavras-nos-arquivos)
 
 # 1. Introdução
 Esse Projeto visa à criação de um pesquisador de palavras em arquivos. Foi criado na linguagem de programação C++ e realizado por um grupo de alunos da UFRN.
@@ -56,7 +50,9 @@ Coloca-se o arquivo executavel projeto na pasta do prompt de comando e utiliza-s
 "-n ou --Temp_N: O programa não deve registrar nem exibir o tempo total de execução da busca." << endl;
 
 
-## 5. Exemplos de execuçao
+## 5. Exemplos de execução
+
+Neses tópico apresentamos alguns exemplos de código
 
 ## 5.1 Inserção de arquivos
 
