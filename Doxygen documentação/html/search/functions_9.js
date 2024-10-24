@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['recupera_5fnumero_5fpalavras_0',['recupera_numero_Palavras',['../_consulta___base___arquivos_8cpp.html#a4d48c87d984fc5d20f374fde2d89375b',1,'recupera_numero_Palavras(Ordena_Quant_Palavra *vetor, int Numero_Palavra_Arquivo_Log):&#160;Consulta_Base_Arquivos.cpp'],['../_consulta___base___arquivos_8h.html#a4d48c87d984fc5d20f374fde2d89375b',1,'recupera_numero_Palavras(Ordena_Quant_Palavra *vetor, int Numero_Palavra_Arquivo_Log):&#160;Consulta_Base_Arquivos.cpp']]],
+  ['recupera_5fpalavras_5farquivo_1',['recupera_palavras_arquivo',['../consulta__palavra_8cpp.html#ad37e530887b505aa7ad2033fab851e82',1,'recupera_palavras_arquivo(char nome[TAMANHO_DA_PALAVRA], char palavra[TAMANHO_DA_PALAVRA], Hash tabela):&#160;consulta_palavra.cpp'],['../consulta__palavra_8h.html#a99df12cb88e81ffb635404ffe062272d',1,'recupera_palavras_arquivo(char *nome, char *palavra, Hash tabela):&#160;consulta_palavra.h']]],
+  ['remove_5flog_5farquivo_2',['Remove_Log_Arquivo',['../apaga_8cpp.html#a0180e474fc4effbc93b509bab274c975',1,'Remove_Log_Arquivo(char *nome_entrada):&#160;apaga.cpp'],['../apaga_8h.html#a0180e474fc4effbc93b509bab274c975',1,'Remove_Log_Arquivo(char *nome_entrada):&#160;apaga.cpp']]],
+  ['remove_5flog_5fcontrole_3',['Remove_Log_Controle',['../apaga_8cpp.html#afb74c50723b790b5e1f2e46f4fdb0680',1,'Remove_Log_Controle(char *nome_entrada):&#160;apaga.cpp'],['../apaga_8h.html#abdecb693171323681a92eef88a36ef52',1,'Remove_Log_Controle(char *nome):&#160;apaga.cpp']]],
+  ['remove_5flog_5fpalavra_4',['Remove_Log_Palavra',['../apaga_8cpp.html#a49e97bdca729806645958f2d5d08ef98',1,'Remove_Log_Palavra(char *nome_entrada):&#160;apaga.cpp'],['../apaga_8h.html#a49e97bdca729806645958f2d5d08ef98',1,'Remove_Log_Palavra(char *nome_entrada):&#160;apaga.cpp']]]
+];
