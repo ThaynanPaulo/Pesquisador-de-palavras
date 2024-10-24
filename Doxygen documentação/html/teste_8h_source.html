@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Código-Fonte de C:/Users/Cliente Lider/Documents/Faculdade/Projeto Arquivo (2024)/teste.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">My Project<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Pesquisador de palavras em arquivo</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_26911f137bcf913edca612bb0fd0e2c6.html">Projeto Arquivo (2024)</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle"><div class="title">teste.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="teste_8h.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef _TESTE_H_</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno"><a class="line" href="teste_8h.html#a63d6fba90c51d45344d86d6fd127790a">    2</a></span><span class="preprocessor">#define TESTE_H_</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="teste_8h.html#a26f0ea282edd059abe2074fb9a0152df">    3</a></span><span class="preprocessor">#define TAMANHO 2000                </span><span class="comment">// TABELA HASH INICIAL - PARA PR�-PROCESSAMENTO</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="teste_8h.html#af06c5a138bab8187dbcfdcdcbeed37bd">    4</a></span><span class="preprocessor">#define QUANTIDADE_DE_LINHAS 200    </span><span class="comment">// POR ARQUIVO</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="teste_8h.html#aed240bfc45076702bf9df2e71b019f69">    5</a></span><span class="preprocessor">#define TAMANHO_DA_PALAVRA 35</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="teste_8h.html#a14ca47d827d7e4bc15e7d2b06c07eef8">    6</a></span><span class="preprocessor">#define TAMANHO_DO_CONTROLE 100</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="teste_8h.html#a0f70f0219dc69ddbe167cc4fb01ffd31">    7</a></span><span class="preprocessor">#define TAMANHO_VETOR_TEMPORARIO  500</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="teste_8h.html#af1b946b927d93f9ebbb01890db8ab763">    8</a></span><span class="preprocessor">#define TAMANHO_DA_FRASE    200</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="structnos.html">   11</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structnos.html">nos</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structnos.html#a15201fbc92b4c82f52326b436ea14947">   13</a></span>    <span class="keywordtype">char</span> <a class="code hl_variable" href="structnos.html#a15201fbc92b4c82f52326b436ea14947">Palavra</a>[<a class="code hl_define" href="teste_8h.html#aed240bfc45076702bf9df2e71b019f69">TAMANHO_DA_PALAVRA</a>];</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structnos.html#afeb19633f2d8bcb10978a913bc5a4cdf">   14</a></span>    <span class="keywordtype">char</span> <a class="code hl_variable" href="structnos.html#afeb19633f2d8bcb10978a913bc5a4cdf">Arquivo</a>[<a class="code hl_define" href="teste_8h.html#aed240bfc45076702bf9df2e71b019f69">TAMANHO_DA_PALAVRA</a>];</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structnos.html#a7c35698cdee478bb56d8ae2088c94a98">   15</a></span>    <span class="keywordtype">int</span>  <a class="code hl_variable" href="structnos.html#a7c35698cdee478bb56d8ae2088c94a98">quantidade</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structnos.html#a0d213b86e7809c58ba6ff15c04025dc8">   16</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structnos.html#a0d213b86e7809c58ba6ff15c04025dc8">linha</a>[<a class="code hl_define" href="teste_8h.html#af06c5a138bab8187dbcfdcdcbeed37bd">QUANTIDADE_DE_LINHAS</a>];</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structnos.html#ae47b6c719f490081b2b88a23b63c9d30">   17</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structnos.html#ae47b6c719f490081b2b88a23b63c9d30">total_de_vezes_palavra</a>;            <span class="comment">//quant � sem repeti��o e total � com repeti��o;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structnos.html#aa35771f625b5605b7e06b4f3bcf19eee">   18</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="structnos.html#aa35771f625b5605b7e06b4f3bcf19eee">livre</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structnos.html#a70e933bd00bbd57becb75d13a80684e7">   19</a></span>    <a class="code hl_struct" href="structnos.html">nos</a> *<a class="code hl_variable" href="structnos.html#a70e933bd00bbd57becb75d13a80684e7">prox</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structnos.html#a8001b52ab4505872b4003e112e9d36f6">   20</a></span>    <a class="code hl_struct" href="structnos.html">nos</a> *<a class="code hl_variable" href="structnos.html#a8001b52ab4505872b4003e112e9d36f6">ant</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="teste_8h.html#aca3db340de8dfcea7abdc95a376120ba">   22</a></span>}<a class="code hl_typedef" href="teste_8h.html#aca3db340de8dfcea7abdc95a376120ba">Dados</a>;</div>
+</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="teste_8h.html#ad2f9dc21defa7adf2ce4d3cb24f1fa31">   24</a></span><span class="keyword">typedef</span> <a class="code hl_struct" href="structnos.html">Dados</a> <a class="code hl_typedef" href="teste_8h.html#ad2f9dc21defa7adf2ce4d3cb24f1fa31">Tabela_Hash</a>[<a class="code hl_define" href="teste_8h.html#a26f0ea282edd059abe2074fb9a0152df">TAMANHO</a>];</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="teste_8h.html#a246bd893bdf4a996574102370fd112d4">   25</a></span><span class="keyword">typedef</span> <a class="code hl_struct" href="structnos.html">Dados</a> *<a class="code hl_typedef" href="teste_8h.html#a246bd893bdf4a996574102370fd112d4">Hash</a>[<a class="code hl_define" href="teste_8h.html#a26f0ea282edd059abe2074fb9a0152df">TAMANHO</a>];</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="structdado.html">   28</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structdado.html">dado</a></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="structdado.html#a77b2cca655e3855121a3bfb589e2a97c">   30</a></span>    <span class="keywordtype">char</span> *<a class="code hl_variable" href="structdado.html#a77b2cca655e3855121a3bfb589e2a97c">nome_arquivo</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="structdado.html#a71949ae4409922de669f46f595c6e4f6">   31</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structdado.html#a71949ae4409922de669f46f595c6e4f6">quantidade_palavras</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structdado.html#ae4421fb6451d859da35a9abab7dd1bac">   32</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structdado.html#ae4421fb6451d859da35a9abab7dd1bac">quantidade_palavras_nao_repetidas</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structdado.html#a101eda20c4498f6915bdb363f0beed00">   33</a></span>    <span class="keywordtype">char</span> **<a class="code hl_variable" href="structdado.html#a101eda20c4498f6915bdb363f0beed00">Palavras_organizadas</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structdado.html#a8a2b2589a0ff8825e4742e9dcccfaabf">   34</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structdado.html#a8a2b2589a0ff8825e4742e9dcccfaabf">numero_do_arquivo</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="comment">//int numero_de_arquivos;</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="comment">//Dados *dados;</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="teste_8h.html#a62db037b7ef7a76acb887f25967601e0">   38</a></span>}<a class="code hl_typedef" href="teste_8h.html#a62db037b7ef7a76acb887f25967601e0">ARQUIVO</a>;</div>
+</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="};">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structno.html">   40</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structno.html">no</a></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="structno.html#ae1c6d884db8411348390c867e8f0ce02">   42</a></span>    <a class="code hl_struct" href="structno.html">no</a> *<a class="code hl_variable" href="structno.html#ae1c6d884db8411348390c867e8f0ce02">prox</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="structno.html#a9abb6c8298c5b47a33994fcf3eac1b06">   43</a></span>    <a class="code hl_struct" href="structno.html">no</a> *<a class="code hl_variable" href="structno.html#a9abb6c8298c5b47a33994fcf3eac1b06">ant</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="structno.html#a9071b5467ad762185826a14c5bbe6de3">   44</a></span>    <a class="code hl_struct" href="structdado.html">ARQUIVO</a> *<a class="code hl_variable" href="structno.html#a9071b5467ad762185826a14c5bbe6de3">arquivo</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="teste_8h.html#a95e55ef71d561dbea49c2bbad2517d99">   45</a></span>}<a class="code hl_typedef" href="teste_8h.html#a95e55ef71d561dbea49c2bbad2517d99">NoLISTA</a>;</div>
+</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="};">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="struct_l_i_s_t_a.html">   47</a></span><span class="keyword">typedef</span> <span class="keyword">struct</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>{</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="struct_l_i_s_t_a.html#ab38c7002c48915ded15db8cf6930ca6f">   49</a></span>    <a class="code hl_struct" href="structno.html">no</a> *<a class="code hl_variable" href="struct_l_i_s_t_a.html#ab38c7002c48915ded15db8cf6930ca6f">ini</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="struct_l_i_s_t_a.html#a8f173cbdbc8566b2c7d67ee1ed41d675">   50</a></span>    <a class="code hl_struct" href="structno.html">no</a> *<a class="code hl_variable" href="struct_l_i_s_t_a.html#a8f173cbdbc8566b2c7d67ee1ed41d675">fim</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="struct_l_i_s_t_a.html#ae4234e47e946bd5110e5a45f866e514a">   51</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_l_i_s_t_a.html#ae4234e47e946bd5110e5a45f866e514a">Quantidade_de_Arquivos</a>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}<a class="code hl_struct" href="struct_l_i_s_t_a.html">LISTA</a>;</div>
+</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">typedef struct no</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">{</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment"></span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">    int quantidade_palavras</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment">    Dados *palavra;</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">    no *prox;</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">    no *ant;</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment">}PALAVRAS;</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment"></span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keywordtype">void</span> <a class="code hl_function" href="teste_8h.html#a3158e531de6efd442eb3f3c3af6dde88">Imprimir_Ajuda</a>();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keywordtype">void</span> <a class="code hl_function" href="teste_8h.html#a585527244c7c199859973644153d66fb">Inicializar_Hash</a>(<a class="code hl_typedef" href="teste_8h.html#ad2f9dc21defa7adf2ce4d3cb24f1fa31">Tabela_Hash</a> tabela);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keywordtype">void</span> <a class="code hl_function" href="teste_8h.html#af8818478076d92ceeebd9a870d48afae">Inicializar_Vetor_arquivo</a>(<a class="code hl_struct" href="structdado.html">ARQUIVO</a> *arquivo);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keywordtype">void</span> <a class="code hl_function" href="teste_8h.html#adeb0835c1526a501e8fff6f10a52394f">Inicializar_Lista</a>(<a class="code hl_struct" href="struct_l_i_s_t_a.html">LISTA</a> * lista);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keywordtype">bool</span> <a class="code hl_function" href="teste_8h.html#a755261f5f3dba1dad3a2d72d4ee8710f">is_empty</a>(std::ifstream&amp; pFile);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="comment">//procedimento de pre processamento de um arquivo na entrada:  como saida temos as struturas tabela e arquivo atualizadas e prontas para serem impressas</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keywordtype">bool</span> <a class="code hl_function" href="teste_8h.html#a0509ed0c211886ea8d281157c5289592">Dados_Arquivo</a>(<a class="code hl_typedef" href="teste_8h.html#ad2f9dc21defa7adf2ce4d3cb24f1fa31">Tabela_Hash</a> tabela, <a class="code hl_struct" href="structdado.html">ARQUIVO</a> *arquivo, <span class="keywordtype">char</span> *nome);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="teste_8h.html#a46b84908618cf9da58c7104dc8a97872">   76</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="teste_8h.html#a46b84908618cf9da58c7104dc8a97872">Atualiza_buffer</a>(<a class="code hl_typedef" href="teste_8h.html#ad2f9dc21defa7adf2ce4d3cb24f1fa31">Tabela_Hash</a> tabela, <span class="keywordtype">int</span> pos, <span class="keywordtype">int</span> linha, <span class="keywordtype">char</span> palavra[], <span class="keywordtype">char</span> *nome );</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="comment">// tabela hash</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keywordtype">int</span> <a class="code hl_function" href="teste_8h.html#aa34c953169cac811b171a3cb5b7cf75c">hash_funcao</a>(<span class="keywordtype">char</span> *palavra);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keywordtype">int</span> <a class="code hl_function" href="teste_8h.html#a6f5e77bac81991b2cfbf7ba99499b412">colisao_funcao</a>(<a class="code hl_typedef" href="teste_8h.html#ad2f9dc21defa7adf2ce4d3cb24f1fa31">Tabela_Hash</a> tabela, <span class="keywordtype">int</span> cont);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="comment">//void Remover_Arquivo(char *nome, LISTA *lista);</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="preprocessor">#endif </span><span class="comment">// _TESTE_H_</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="ttc" id="astruct_l_i_s_t_a_html"><div class="ttname"><a href="struct_l_i_s_t_a.html">LISTA</a></div><div class="ttdef"><b>Definição</b> teste.h:48</div></div>
+<div class="ttc" id="astruct_l_i_s_t_a_html_a8f173cbdbc8566b2c7d67ee1ed41d675"><div class="ttname"><a href="struct_l_i_s_t_a.html#a8f173cbdbc8566b2c7d67ee1ed41d675">LISTA::fim</a></div><div class="ttdeci">no * fim</div><div class="ttdef"><b>Definição</b> teste.h:50</div></div>
+<div class="ttc" id="astruct_l_i_s_t_a_html_ab38c7002c48915ded15db8cf6930ca6f"><div class="ttname"><a href="struct_l_i_s_t_a.html#ab38c7002c48915ded15db8cf6930ca6f">LISTA::ini</a></div><div class="ttdeci">no * ini</div><div class="ttdef"><b>Definição</b> teste.h:49</div></div>
+<div class="ttc" id="astruct_l_i_s_t_a_html_ae4234e47e946bd5110e5a45f866e514a"><div class="ttname"><a href="struct_l_i_s_t_a.html#ae4234e47e946bd5110e5a45f866e514a">LISTA::Quantidade_de_Arquivos</a></div><div class="ttdeci">int Quantidade_de_Arquivos</div><div class="ttdef"><b>Definição</b> teste.h:51</div></div>
+<div class="ttc" id="astructdado_html"><div class="ttname"><a href="structdado.html">dado</a></div><div class="ttdef"><b>Definição</b> teste.h:29</div></div>
+<div class="ttc" id="astructdado_html_a101eda20c4498f6915bdb363f0beed00"><div class="ttname"><a href="structdado.html#a101eda20c4498f6915bdb363f0beed00">dado::Palavras_organizadas</a></div><div class="ttdeci">char ** Palavras_organizadas</div><div class="ttdef"><b>Definição</b> teste.h:33</div></div>
+<div class="ttc" id="astructdado_html_a71949ae4409922de669f46f595c6e4f6"><div class="ttname"><a href="structdado.html#a71949ae4409922de669f46f595c6e4f6">dado::quantidade_palavras</a></div><div class="ttdeci">int quantidade_palavras</div><div class="ttdef"><b>Definição</b> teste.h:31</div></div>
+<div class="ttc" id="astructdado_html_a77b2cca655e3855121a3bfb589e2a97c"><div class="ttname"><a href="structdado.html#a77b2cca655e3855121a3bfb589e2a97c">dado::nome_arquivo</a></div><div class="ttdeci">char * nome_arquivo</div><div class="ttdef"><b>Definição</b> teste.h:30</div></div>
+<div class="ttc" id="astructdado_html_a8a2b2589a0ff8825e4742e9dcccfaabf"><div class="ttname"><a href="structdado.html#a8a2b2589a0ff8825e4742e9dcccfaabf">dado::numero_do_arquivo</a></div><div class="ttdeci">int numero_do_arquivo</div><div class="ttdef"><b>Definição</b> teste.h:34</div></div>
+<div class="ttc" id="astructdado_html_ae4421fb6451d859da35a9abab7dd1bac"><div class="ttname"><a href="structdado.html#ae4421fb6451d859da35a9abab7dd1bac">dado::quantidade_palavras_nao_repetidas</a></div><div class="ttdeci">int quantidade_palavras_nao_repetidas</div><div class="ttdef"><b>Definição</b> teste.h:32</div></div>
+<div class="ttc" id="astructno_html"><div class="ttname"><a href="structno.html">no</a></div><div class="ttdef"><b>Definição</b> teste.h:41</div></div>
+<div class="ttc" id="astructno_html_a9071b5467ad762185826a14c5bbe6de3"><div class="ttname"><a href="structno.html#a9071b5467ad762185826a14c5bbe6de3">no::arquivo</a></div><div class="ttdeci">ARQUIVO * arquivo</div><div class="ttdef"><b>Definição</b> teste.h:44</div></div>
+<div class="ttc" id="astructno_html_a9abb6c8298c5b47a33994fcf3eac1b06"><div class="ttname"><a href="structno.html#a9abb6c8298c5b47a33994fcf3eac1b06">no::ant</a></div><div class="ttdeci">no * ant</div><div class="ttdef"><b>Definição</b> teste.h:43</div></div>
+<div class="ttc" id="astructno_html_ae1c6d884db8411348390c867e8f0ce02"><div class="ttname"><a href="structno.html#ae1c6d884db8411348390c867e8f0ce02">no::prox</a></div><div class="ttdeci">no * prox</div><div class="ttdef"><b>Definição</b> teste.h:42</div></div>
+<div class="ttc" id="astructnos_html"><div class="ttname"><a href="structnos.html">nos</a></div><div class="ttdef"><b>Definição</b> teste.h:12</div></div>
+<div class="ttc" id="astructnos_html_a0d213b86e7809c58ba6ff15c04025dc8"><div class="ttname"><a href="structnos.html#a0d213b86e7809c58ba6ff15c04025dc8">nos::linha</a></div><div class="ttdeci">int linha[QUANTIDADE_DE_LINHAS]</div><div class="ttdef"><b>Definição</b> teste.h:16</div></div>
+<div class="ttc" id="astructnos_html_a15201fbc92b4c82f52326b436ea14947"><div class="ttname"><a href="structnos.html#a15201fbc92b4c82f52326b436ea14947">nos::Palavra</a></div><div class="ttdeci">char Palavra[TAMANHO_DA_PALAVRA]</div><div class="ttdef"><b>Definição</b> teste.h:13</div></div>
+<div class="ttc" id="astructnos_html_a70e933bd00bbd57becb75d13a80684e7"><div class="ttname"><a href="structnos.html#a70e933bd00bbd57becb75d13a80684e7">nos::prox</a></div><div class="ttdeci">nos * prox</div><div class="ttdef"><b>Definição</b> teste.h:19</div></div>
+<div class="ttc" id="astructnos_html_a7c35698cdee478bb56d8ae2088c94a98"><div class="ttname"><a href="structnos.html#a7c35698cdee478bb56d8ae2088c94a98">nos::quantidade</a></div><div class="ttdeci">int quantidade</div><div class="ttdef"><b>Definição</b> teste.h:15</div></div>
+<div class="ttc" id="astructnos_html_a8001b52ab4505872b4003e112e9d36f6"><div class="ttname"><a href="structnos.html#a8001b52ab4505872b4003e112e9d36f6">nos::ant</a></div><div class="ttdeci">nos * ant</div><div class="ttdef"><b>Definição</b> teste.h:20</div></div>
+<div class="ttc" id="astructnos_html_aa35771f625b5605b7e06b4f3bcf19eee"><div class="ttname"><a href="structnos.html#aa35771f625b5605b7e06b4f3bcf19eee">nos::livre</a></div><div class="ttdeci">bool livre</div><div class="ttdef"><b>Definição</b> teste.h:18</div></div>
+<div class="ttc" id="astructnos_html_ae47b6c719f490081b2b88a23b63c9d30"><div class="ttname"><a href="structnos.html#ae47b6c719f490081b2b88a23b63c9d30">nos::total_de_vezes_palavra</a></div><div class="ttdeci">int total_de_vezes_palavra</div><div class="ttdef"><b>Definição</b> teste.h:17</div></div>
+<div class="ttc" id="astructnos_html_afeb19633f2d8bcb10978a913bc5a4cdf"><div class="ttname"><a href="structnos.html#afeb19633f2d8bcb10978a913bc5a4cdf">nos::Arquivo</a></div><div class="ttdeci">char Arquivo[TAMANHO_DA_PALAVRA]</div><div class="ttdef"><b>Definição</b> teste.h:14</div></div>
+<div class="ttc" id="ateste_8h_html_a0509ed0c211886ea8d281157c5289592"><div class="ttname"><a href="teste_8h.html#a0509ed0c211886ea8d281157c5289592">Dados_Arquivo</a></div><div class="ttdeci">bool Dados_Arquivo(Tabela_Hash tabela, ARQUIVO *arquivo, char *nome)</div><div class="ttdef"><b>Definição</b> teste.cpp:127</div></div>
+<div class="ttc" id="ateste_8h_html_a246bd893bdf4a996574102370fd112d4"><div class="ttname"><a href="teste_8h.html#a246bd893bdf4a996574102370fd112d4">Hash</a></div><div class="ttdeci">Dados * Hash[TAMANHO]</div><div class="ttdef"><b>Definição</b> teste.h:25</div></div>
+<div class="ttc" id="ateste_8h_html_a26f0ea282edd059abe2074fb9a0152df"><div class="ttname"><a href="teste_8h.html#a26f0ea282edd059abe2074fb9a0152df">TAMANHO</a></div><div class="ttdeci">#define TAMANHO</div><div class="ttdef"><b>Definição</b> teste.h:3</div></div>
+<div class="ttc" id="ateste_8h_html_a3158e531de6efd442eb3f3c3af6dde88"><div class="ttname"><a href="teste_8h.html#a3158e531de6efd442eb3f3c3af6dde88">Imprimir_Ajuda</a></div><div class="ttdeci">void Imprimir_Ajuda()</div><div class="ttdef"><b>Definição</b> teste.cpp:11</div></div>
+<div class="ttc" id="ateste_8h_html_a46b84908618cf9da58c7104dc8a97872"><div class="ttname"><a href="teste_8h.html#a46b84908618cf9da58c7104dc8a97872">Atualiza_buffer</a></div><div class="ttdeci">void Atualiza_buffer(Tabela_Hash tabela, int pos, int linha, char palavra[], char *nome)</div></div>
+<div class="ttc" id="ateste_8h_html_a585527244c7c199859973644153d66fb"><div class="ttname"><a href="teste_8h.html#a585527244c7c199859973644153d66fb">Inicializar_Hash</a></div><div class="ttdeci">void Inicializar_Hash(Tabela_Hash tabela)</div><div class="ttdef"><b>Definição</b> teste.cpp:41</div></div>
+<div class="ttc" id="ateste_8h_html_a62db037b7ef7a76acb887f25967601e0"><div class="ttname"><a href="teste_8h.html#a62db037b7ef7a76acb887f25967601e0">ARQUIVO</a></div><div class="ttdeci">struct dado ARQUIVO</div></div>
+<div class="ttc" id="ateste_8h_html_a6f5e77bac81991b2cfbf7ba99499b412"><div class="ttname"><a href="teste_8h.html#a6f5e77bac81991b2cfbf7ba99499b412">colisao_funcao</a></div><div class="ttdeci">int colisao_funcao(Tabela_Hash tabela, int cont)</div><div class="ttdef"><b>Definição</b> teste.cpp:74</div></div>
+<div class="ttc" id="ateste_8h_html_a755261f5f3dba1dad3a2d72d4ee8710f"><div class="ttname"><a href="teste_8h.html#a755261f5f3dba1dad3a2d72d4ee8710f">is_empty</a></div><div class="ttdeci">bool is_empty(std::ifstream &amp;pFile)</div><div class="ttdef"><b>Definição</b> teste.cpp:107</div></div>
+<div class="ttc" id="ateste_8h_html_a95e55ef71d561dbea49c2bbad2517d99"><div class="ttname"><a href="teste_8h.html#a95e55ef71d561dbea49c2bbad2517d99">NoLISTA</a></div><div class="ttdeci">struct no NoLISTA</div></div>
+<div class="ttc" id="ateste_8h_html_aa34c953169cac811b171a3cb5b7cf75c"><div class="ttname"><a href="teste_8h.html#aa34c953169cac811b171a3cb5b7cf75c">hash_funcao</a></div><div class="ttdeci">int hash_funcao(char *palavra)</div><div class="ttdef"><b>Definição</b> teste.cpp:85</div></div>
+<div class="ttc" id="ateste_8h_html_aca3db340de8dfcea7abdc95a376120ba"><div class="ttname"><a href="teste_8h.html#aca3db340de8dfcea7abdc95a376120ba">Dados</a></div><div class="ttdeci">struct nos Dados</div></div>
+<div class="ttc" id="ateste_8h_html_ad2f9dc21defa7adf2ce4d3cb24f1fa31"><div class="ttname"><a href="teste_8h.html#ad2f9dc21defa7adf2ce4d3cb24f1fa31">Tabela_Hash</a></div><div class="ttdeci">Dados Tabela_Hash[TAMANHO]</div><div class="ttdef"><b>Definição</b> teste.h:24</div></div>
+<div class="ttc" id="ateste_8h_html_adeb0835c1526a501e8fff6f10a52394f"><div class="ttname"><a href="teste_8h.html#adeb0835c1526a501e8fff6f10a52394f">Inicializar_Lista</a></div><div class="ttdeci">void Inicializar_Lista(LISTA *lista)</div><div class="ttdef"><b>Definição</b> teste.cpp:68</div></div>
+<div class="ttc" id="ateste_8h_html_aed240bfc45076702bf9df2e71b019f69"><div class="ttname"><a href="teste_8h.html#aed240bfc45076702bf9df2e71b019f69">TAMANHO_DA_PALAVRA</a></div><div class="ttdeci">#define TAMANHO_DA_PALAVRA</div><div class="ttdef"><b>Definição</b> teste.h:5</div></div>
+<div class="ttc" id="ateste_8h_html_af06c5a138bab8187dbcfdcdcbeed37bd"><div class="ttname"><a href="teste_8h.html#af06c5a138bab8187dbcfdcdcbeed37bd">QUANTIDADE_DE_LINHAS</a></div><div class="ttdeci">#define QUANTIDADE_DE_LINHAS</div><div class="ttdef"><b>Definição</b> teste.h:4</div></div>
+<div class="ttc" id="ateste_8h_html_af8818478076d92ceeebd9a870d48afae"><div class="ttname"><a href="teste_8h.html#af8818478076d92ceeebd9a870d48afae">Inicializar_Vetor_arquivo</a></div><div class="ttdeci">void Inicializar_Vetor_arquivo(ARQUIVO *arquivo)</div><div class="ttdef"><b>Definição</b> teste.cpp:59</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>
