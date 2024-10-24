@@ -1,0 +1,5 @@
+É comum, que ao editar um texto, surja a necessidade de adicionar determinados caracteres especiais (sinal, marca, letra, combinação...) que, aparentemente,  «não existe no teclado».
+
+De fato, os caracteres especiais existem no teclado.
+
+Para aceder aos caracteres especiais por teclado tem que ir por atalhos, e conhecer a tabela ASCII compatível com o teclado português:

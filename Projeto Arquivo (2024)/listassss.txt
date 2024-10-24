@@ -1,0 +1,3 @@
+A função strcmp() pode retornar um valor nulo (zero), positivo ou negativo.
+Quando as palavras comparadas são iguais, a função retorna 0.
+Quando as palavras comparadas são diferentes e a primeira é maior, a função retorna um valor 

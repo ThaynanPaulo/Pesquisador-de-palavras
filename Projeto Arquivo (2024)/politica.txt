@@ -1,0 +1,11 @@
+Onde palavra1 e palavra2 são variáveis do tipo string que devem ser comparadas.
+
+A função strcmp() pode retornar um valor nulo (zero), positivo ou negativo.
+Quando as palavras comparadas são 
+iguais, a função retorna 0.
+Quando as palavras comparadas 
+são diferentes e a primeira é maior, a 
+função retorna um valor positivo, caso 
+
+contrário, a função retorna negativo, 
+sendo que no alfabeto a “menor” letra é "a" palavr
