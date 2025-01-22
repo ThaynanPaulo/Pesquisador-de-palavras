@@ -1,4 +1,4 @@
-# [1. Introdução]([#introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-1)
+# [1. Introdução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#1-introdu%C3%A7%C3%A3o-1)
 # [2. Habilidaes adiquiridas ou requisitadas para o projeto](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#2-habilidaes-adiquiridas-ou-requisitadas-para-o-projeto)
 # [3. Como executar](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#4-principais-funcionalidades-1)
 # [4.1 Modo de Gerenciamento de Busca](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#41-modo-de-gerenciamento-de-busca)
