@@ -9,9 +9,9 @@
 ## [4.5 Contabilização do tempo](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#45-contabiliza%C3%A7%C3%A3o-do-tempo-1)
 # [5. Exemplos de execução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#5-exemplos-de-execu%C3%A7%C3%A3o-1)
 # [5.1 Inserção de arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#51-inser%C3%A7%C3%A3o-de-arquivos-1)
-# [5.2 Remoção de arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#52-remo%C3%A7%C3%A3o-de-arquivos)
-# [5.3 Apresentação arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#53-apresenta%C3%A7%C3%A3o-arquivos)
-# [5.4 Busca de palavras nos arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#54-busca-de-palavras-nos-arquivos)
+# [5.2 Remoção de arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#52-remo%C3%A7%C3%A3o-de-arquivos-1)
+# [5.3 Apresentação arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#53-apresenta%C3%A7%C3%A3o-arquivos-1)
+# [5.4 Busca de palavras nos arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#54-busca-de-palavras-nos-arquivos-1)
 
 # 1. Introdução
 Esse Projeto visa à criação de um pesquisador de palavras em arquivos. Foi criado na linguagem de programação C++ e realizado por um grupo de alunos da UFRN.
