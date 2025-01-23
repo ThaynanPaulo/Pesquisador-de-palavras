@@ -5,7 +5,7 @@
 ## [4.1 Modo de Gerenciamento de Busca](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#41-modo-de-gerenciamento-de-busca-1)
 ## [4.2 Exibição da base de arquivo](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#42-modoexibi%C3%A7%C3%A3o-da-base-de-arquivo)
 ## [4.3 Modo de Buscas](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#43-modo-de-buscas-1)
-## [4.4 Exibição do resultado da busca](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#44-exibi%C3%A7%C3%A3o-do-resultado-da-busca)
+## [4.4 Exibição do resultado da busca](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#44-exibi%C3%A7%C3%A3o-do-resultado-da-busca-1)
 ## [4.5 Contabilização do tempo](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#45-contabiliza%C3%A7%C3%A3o-do-tempo-1)
 # [5. Exemplos de execução]((https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#5-exemplos-de-execu%C3%A7%C3%A3o-1))
 # [5.1 Inserção de arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#51-inser%C3%A7%C3%A3o-de-arquivos-1)
